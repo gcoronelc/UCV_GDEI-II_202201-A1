@@ -9,7 +9,7 @@
 ## DATOS DEL CURSO
 
 - Lugar: UNIVERSIDAD CESAR VALLEJO
-- Horario: LUNEA DE 07:30 a 11:10 Horas
+- Horario: LUNES DE 07:30 a 11:10 Horas
 - Inicio: 04-ABRIL-2022
 - Teoría: 07:30 a 10:00 Horas
 - Laboratorio: 10:20 a 11:10 Horas
