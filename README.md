@@ -19,6 +19,7 @@
 
 - Docente: Eric Gustavo Coronel Castillo
 - Blog: www.desarrollasoftware.com
+- Youtube: youtube.com/DesarrollaSoftware
 - Cooreo: ecoronelca@ucvvirtual.edu.pe
 
 
