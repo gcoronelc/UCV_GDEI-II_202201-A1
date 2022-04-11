@@ -113,5 +113,19 @@ go
 select * from v_GA_REQ06;
 go
 
+/*
 5. Verificar su resultado.
+*/
+
+select * from v_GA_REQ06;
+
+select iddepartamento, min(sueldo + ISNULL(comision,0)) as sueldo_minimo
+from rh..empleado
+group by iddepartamento;
+go
+
+
+/*
 6. Consultar la vista desde Microsoft Excel.
+*/
+
