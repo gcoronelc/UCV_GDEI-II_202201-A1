@@ -164,3 +164,11 @@ go
 
 6. Consultar la vista desde Microsoft Excel
 */
+
+
+-- Otra alternativa
+
+WITH v1 AS (	SELECT ShipCity, ProductID, RANK() OVER(PARTITION BY ShipCity ORDER BY Quantity DESC) AS Ranking FROM [Order Details] od	JOIN Orders O ON od.OrderID = O.OrderID )SELECT * FROM v1 WHERE Ranking=1;
+go
+
+
