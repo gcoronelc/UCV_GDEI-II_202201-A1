@@ -46,3 +46,16 @@ go
 insert into empleado 
 values ('E8888','AAAAAA', 'BBBBBB', '20050120', 'algo@gmail.com',
 	'99999999', 'C03', 103, 18500, null, 'E0001' );
+
+
+-- EL ERROR (RETO)
+
+select * from SueldoLog;
+go
+
+update empleado 
+set nombre = 'Carlos', apellido = 'Alcantara'
+where idempleado='E8888';
+go
+
+
