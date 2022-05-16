@@ -13,3 +13,4 @@ declare @suma int;
 exec usp_calcula_suma 80, 57, @suma out;
 print concat('Suma : ', @suma);
 go
+
