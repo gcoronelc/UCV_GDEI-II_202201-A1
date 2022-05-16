@@ -7,7 +7,7 @@ select * from contador;
 go
 
 
-alter procedure usp_registra_cliente
+create procedure usp_registra_cliente
 (
 	@p_paterno   varchar   (25), 
 	@p_materno   varchar   (25), 
@@ -25,6 +25,11 @@ BEGIN
 	-- Variables
 	DECLARE @contador int, @tamanio int;
 	-- Validaciones
+	if(@p_paterno is null OR @p_materno is null OR @p_nombre is null)
+	begin
+		set @p_estado = -3;
+		return;
+	end;
 
 	-- Proceso
 	SET @p_estado = 1;
