@@ -10,7 +10,7 @@
       DTS:ConnectionString="Data Source=localhost;User ID=sa;Initial Catalog=Northwind;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;">
       <DTS:Password
         DTS:Name="Password"
-        Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAm8KeguxCC0m/HnjD6Cvv2AAAAAACAAAAAAAQZgAAAAEAACAAAABU+Ij5ssI5buQLEPCu8wPbEN0tRJJ0efyzGwssbRTyDgAAAAAOgAAAAAIAACAAAAD0gIqAmvogZh/72MGOI5U95+SqMUgpX+YWocXv+lfA/nAAAABksTtbtk6jly7dx1x00YCyaSWYkZpPD/jlQg1NePM02esITYeyqP1XDDt/IrHDAHu8t4C9T+vvhBb1+s6URHFslfLTqGFj5m6n2X1QwEW/uOPGHePyiiXja8I2yjc6i2PMyfKYq8w8sJ5gVXIlAiHyQAAAACbdDJoogUYwkA9O8QRsl+W+zWKSiG7VdakwgzvP76Jz897cAE1m2MvUMnCHK3AZ6V/8LkQulBJl2sXgb6Z+JCo=</DTS:Password>
+        Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAm8KeguxCC0m/HnjD6Cvv2AAAAAACAAAAAAAQZgAAAAEAACAAAADfiQmB86zWSm54w8GGMllmOAteg6t/PFmzO8M9JxvNAwAAAAAOgAAAAAIAACAAAAB2B2b73Pl0I7nrJYElh61+a6PY6ISXc4uPRZUObXpV3HAAAAATbsQyS0Cp70Useu1XyA80b6ywtDnXBtiqcqKmn+20SoXqpzsT+en2sAjIkq4cTGejgbZuJbsfen8niIYdEfzlsarbfmoX3ciBEkYCo1nfVIRv/UCyg8RKC0mOSFCHERTD4BEw/6jt6ybsTWmlbBpxQAAAAEsmTp7GnHbyXPIpUjRzfzBehaWXyLBI2cZPS5QubWDPHom8LmC8iJ/uw2xQAJ0vCdUVWngSEVifgt9HP+U+U5M=</DTS:Password>
     </DTS:ConnectionManager>
   </DTS:ObjectData>
 </DTS:ConnectionManager>
