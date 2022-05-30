@@ -11,8 +11,8 @@
   DTS:LocaleID="10250"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="7"
-  DTS:VersionGUID="{B01FB79A-EFCB-4108-B291-55EAB1DF288B}">
+  DTS:VersionBuild="8"
+  DTS:VersionGUID="{75CBC231-B99D-423E-965F-D3F347A7B32E}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:Variables />
@@ -1938,6 +1938,10 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
           Id="Package\Cargar Clientes"
           TopLeft="131.571428571429,180.428571428571" />
         <NodeLayout
+          Size="151,42"
+          Id="Package\Data Flow Task"
+          TopLeft="362.142857142857,179.285714285714" />
+        <NodeLayout
           Size="170,42"
           Id="Package\Tarea Ejecutar SQL"
           TopLeft="230.857142857143,21.7142857142853" />
@@ -1975,10 +1979,6 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="151,42"
-          Id="Package\Data Flow Task"
-          TopLeft="362.142857142857,179.285714285714" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Restricción 1]"
           TopLeft="342.857142857143,63.7142857142853">
@@ -2055,7 +2055,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
     </LayoutInfo>
   </TaskHost>
   <PipelineComponentMetadata
-    design-time-name="Package\Cargar Clientes\OLE DB Source">
+    design-time-name="Package\Cargar Clientes\OLE DB Destination">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -2068,7 +2068,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Cargar Clientes\OLE DB Destination">
+    design-time-name="Package\Cargar Clientes\OLE DB Source">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
