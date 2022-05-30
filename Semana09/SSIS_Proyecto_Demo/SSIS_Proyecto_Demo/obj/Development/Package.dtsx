@@ -1,4 +1,4 @@
-﻿<?xml version="1.0"?>
+<?xml version="1.0"?>
 <DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
   DTS:refId="Package"
   DTS:CreationDate="5/30/2022 8:39:19 AM"
@@ -11,8 +11,8 @@
   DTS:LocaleID="10250"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="4"
-  DTS:VersionGUID="{E6F7C4AB-530E-4B87-8BCE-93880DD570F9}">
+  DTS:VersionBuild="3"
+  DTS:VersionGUID="{0B4778F0-4E39-4E73-A821-80E254713AD9}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:Variables />
@@ -618,11 +618,11 @@
     <DTS:PrecedenceConstraint
       DTS:refId="Package.PrecedenceConstraints[Restricción]"
       DTS:CreationName=""
-      DTS:DTSID="{64E055D1-A986-4A4C-BC97-2097BA3DA86F}"
-      DTS:From="Package\Tarea Ejecutar SQL"
+      DTS:DTSID="{AF292F14-962A-48EF-9732-0ECA37C02A03}"
+      DTS:From="Package\Data Flow Task"
       DTS:LogicalAnd="True"
       DTS:ObjectName="Restricción"
-      DTS:To="Package\Data Flow Task" />
+      DTS:To="Package\Tarea Ejecutar SQL" />
   </DTS:PrecedenceConstraints>
   <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
 <!--Esta sección CDATA contiene la información de diseño del paquete. Esta sección incluye información como, por ejemplo, las coordenadas (x,y), el ancho y el alto.-->
@@ -639,25 +639,25 @@
         <NodeLayout
           Size="167,42"
           Id="Package\Data Flow Task"
-          TopLeft="87.2857142857143,143.285714285714" />
+          TopLeft="153,66.8571428571428" />
         <NodeLayout
           Size="170,42"
           Id="Package\Tarea Ejecutar SQL"
-          TopLeft="80.8571428571429,44.5714285714282" />
+          TopLeft="150.142857142857,152.428571428571" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Restricción]"
-          TopLeft="168.321428571429,86.5714285714281">
+          TopLeft="235.821428571429,108.857142857143">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,56.714285714286"
+              EndConnector="0,43.5714285714286"
               Start="0,0"
-              End="0,49.214285714286">
+              End="0,36.0714285714286">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,49.214285714286" />
+                    End="0,36.0714285714286" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
