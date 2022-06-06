@@ -66,3 +66,35 @@ SELECT * FROM dbo.fn_catalogo();
 GO
 
 
+/*
+Desarrolle una función que reporte de la cantidad de alumnos matriculados 
+y las vacantes disponibles de un determinado curso. Base de datos EDUTEC.
+*/
+
+ALTER FUNCTION dbo.fn_repo_matriculas (@idCurspProg int ) 
+RETURNS @tabla TABLE ( 
+	dato varchar(50) not null, 
+	valor varchar(50) not null
+) 
+AS 
+BEGIN 
+	INSERT INTO @tabla
+	select 'CICLO', IdCiclo
+	FROM CursoProgramado WHERE IdCursoProg=@idCurspProg;
+
+	INSERT INTO @tabla
+	select 'CODIGO DEL CURSO', IdCurso 
+	FROM CursoProgramado WHERE IdCursoProg=@idCurspProg;
+
+	INSERT INTO @tabla
+	select 'NOMBRE DEL CURSO', NomCurso FROM Curso 
+	WHERE IdCurso=(select IdCurso FROM CursoProgramado WHERE IdCursoProg=@idCurspProg);
+	
+	RETURN; 
+END; 
+GO
+
+SELECT * FROM dbo.fn_repo_matriculas(8000);
+
+select * from CursoProgramado;
+
