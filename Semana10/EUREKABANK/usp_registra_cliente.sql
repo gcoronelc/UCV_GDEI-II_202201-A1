@@ -30,7 +30,6 @@ BEGIN
 		set @p_estado = -3;
 		return;
 	end;
-
 	-- Proceso
 	SET @p_estado = 1;
 	BEGIN TRY 
@@ -65,20 +64,22 @@ BEGIN
 END;
 GO
 
--- Prueba
+-- Prueba 1
 declare @codigo char(5), @estado int;
-exec usp_registra_cliente 'Espino', 'Baltazar', 'Josue', '12345678', 'Lima', 
-'Lima', '555555555', 'josue@gmail.com', @codigo out, @estado out;
+exec usp_registra_cliente 'Espino', 'Baltazar', 
+	'Josue', '12345678', 'Lima', 'Lima', '555555555', 
+	'josue@gmail.com', @codigo out, @estado out;
 print concat('Estado: ', @estado);
 print concat('Codigo: ', @codigo);
 go
 
 
 
--- Prueba
+-- Prueba 2
 declare @codigo char(5), @estado int;
 exec usp_registra_cliente 'Espino', 'Baltazar', NULL, '12345678', 'Lima', 
 'Lima', '555555555', 'josue@gmail.com', @codigo out, @estado out;
 print concat('Estado: ', @estado);
 print concat('Codigo: ', @codigo);
 go
+
