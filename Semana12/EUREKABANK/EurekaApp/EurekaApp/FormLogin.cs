@@ -29,6 +29,12 @@ namespace EurekaApp
          string usuario = txtUsuario.Text;
          string clave = txtClave.Text;
          // Proceso
+         if(usuario=="" || clave == "")
+         {
+            lblError.Text = "    Faltan datos.";
+            lblError.Visible = true;
+            return;
+         }
          LogonService service = new LogonService();
          EmpleadoModel empleado = service.validarUsuario(usuario, clave);
          if (service.Estado == 1)
@@ -36,6 +42,11 @@ namespace EurekaApp
             FormularioPrincipal fp = new FormularioPrincipal();
             fp.Show();
             this.Hide();
+            Cache.UserLoginCache.Codigo = empleado.Codigo;
+            Cache.UserLoginCache.Paterno = empleado.Paterno;
+            Cache.UserLoginCache.Materno = empleado.Materno;
+            Cache.UserLoginCache.Nombre = empleado.Nombre;
+            Cache.UserLoginCache.Usuario = empleado.Usuario;
          } else
          {
             lblError.Text = "    " + service.Mensaje;

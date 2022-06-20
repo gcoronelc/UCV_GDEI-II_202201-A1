@@ -17,7 +17,7 @@ begin
 	declare @contador int, @estado int, @mensaje varchar(1000);
 	-- Proceso
 	set @estado = 1;
-	set @mensaje = 'Proceso ejecutado correctamente.';
+	set @mensaje = 'Datos correctos.';
 	BEGIN TRY
 		select @contador=count(1) from Empleado
 		where vch_emplusuario=@p_usuario and vch_emplclave=@p_clave;
@@ -48,11 +48,11 @@ go
 select * from empleado;
 go
 
-declare @estado int, @mensaje varchar(1000);
-exec dbo.usp_logon 'cromero', 'chicho', @estado out, @mensaje out;
-print concat('estado: ', @estado);
-print concat('mensaje: ', @mensaje);
+-- Prueba 1: Datos incorrectos
+exec dbo.usp_logon 'alfa', 'beta'
 go
 
-
+-- Prueba 2: Datos incorrectos
+exec dbo.usp_logon 'aramos', 'china'
+go
 

@@ -64,15 +64,9 @@ namespace EurekaApp
       {
       }
 
-      private void ToolBarToolStripMenuItem_Click(object sender, EventArgs e)
-      {
-         toolStrip.Visible = toolBarToolStripMenuItem.Checked;
-      }
+     
 
-      private void StatusBarToolStripMenuItem_Click(object sender, EventArgs e)
-      {
-         statusStrip.Visible = statusBarToolStripMenuItem.Checked;
-      }
+     
 
       private void CascadeToolStripMenuItem_Click(object sender, EventArgs e)
       {
@@ -105,6 +99,13 @@ namespace EurekaApp
       private void FormularioPrincipal_FormClosed(object sender, FormClosedEventArgs e)
       {
          Application.Exit();
+      }
+
+      private void depósitoToolStripMenuItem_Click(object sender, EventArgs e)
+      {
+         FormDeposito view = FormDeposito.GetInstance();
+         view.MdiParent = this;
+         view.Show();
       }
    }
 }
