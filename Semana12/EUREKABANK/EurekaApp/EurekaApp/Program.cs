@@ -17,6 +17,7 @@ namespace EurekaApp
         static void Main()
         {
 
+         /*
             ClienteModel cliente = new ClienteModel();
             cliente.paterno = "ABC";
             cliente.materno = "XYZ";
@@ -31,11 +32,12 @@ namespace EurekaApp
 
             MessageBox.Show("Estado: " + ClienteService.Estado);
             MessageBox.Show("Codig: " + codigo);
+         */
 
             Application.SetHighDpiMode(HighDpiMode.SystemAware);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new FormLogin());
         }
     }
 }

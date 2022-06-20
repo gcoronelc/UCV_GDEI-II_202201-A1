@@ -470,19 +470,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Gustavo Coronel\\.nuget\\packages\\": {}
+    "C:\\Users\\Gustavo Coronel\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\GITHUB\\UCV\\UCV_GDEI-II_202201-A1\\Semana11\\EUREKABANK\\EurekaApp\\CapaServicios\\CapaServicios.csproj",
+      "projectUniqueName": "D:\\GITHUB\\UCV\\UCV_GDEI-II_202201-A1\\Semana12\\EUREKABANK\\EurekaApp\\CapaServicios\\CapaServicios.csproj",
       "projectName": "CapaServicios",
-      "projectPath": "D:\\GITHUB\\UCV\\UCV_GDEI-II_202201-A1\\Semana11\\EUREKABANK\\EurekaApp\\CapaServicios\\CapaServicios.csproj",
+      "projectPath": "D:\\GITHUB\\UCV\\UCV_GDEI-II_202201-A1\\Semana12\\EUREKABANK\\EurekaApp\\CapaServicios\\CapaServicios.csproj",
       "packagesPath": "C:\\Users\\Gustavo Coronel\\.nuget\\packages\\",
-      "outputPath": "D:\\GITHUB\\UCV\\UCV_GDEI-II_202201-A1\\Semana11\\EUREKABANK\\EurekaApp\\CapaServicios\\obj\\",
+      "outputPath": "D:\\GITHUB\\UCV\\UCV_GDEI-II_202201-A1\\Semana12\\EUREKABANK\\EurekaApp\\CapaServicios\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
         "C:\\Users\\Gustavo Coronel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -496,8 +501,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "D:\\GITHUB\\UCV\\UCV_GDEI-II_202201-A1\\Semana11\\EUREKABANK\\EurekaApp\\CapaModelo\\CapaModelo.csproj": {
-              "projectPath": "D:\\GITHUB\\UCV\\UCV_GDEI-II_202201-A1\\Semana11\\EUREKABANK\\EurekaApp\\CapaModelo\\CapaModelo.csproj"
+            "D:\\GITHUB\\UCV\\UCV_GDEI-II_202201-A1\\Semana12\\EUREKABANK\\EurekaApp\\CapaModelo\\CapaModelo.csproj": {
+              "projectPath": "D:\\GITHUB\\UCV\\UCV_GDEI-II_202201-A1\\Semana12\\EUREKABANK\\EurekaApp\\CapaModelo\\CapaModelo.csproj"
             }
           }
         }
@@ -532,7 +537,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
       }
     }
   }
