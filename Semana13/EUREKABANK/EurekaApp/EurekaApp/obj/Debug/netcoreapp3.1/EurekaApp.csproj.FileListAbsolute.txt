@@ -86,3 +86,4 @@ D:\GITHUB\UCV\UCV_GDEI-II_202201-A1\Semana13\EUREKABANK\EurekaApp\EurekaApp\obj\
 D:\GITHUB\UCV\UCV_GDEI-II_202201-A1\Semana13\EUREKABANK\EurekaApp\EurekaApp\obj\Debug\netcoreapp3.1\EurekaApp.dll
 D:\GITHUB\UCV\UCV_GDEI-II_202201-A1\Semana13\EUREKABANK\EurekaApp\EurekaApp\obj\Debug\netcoreapp3.1\EurekaApp.pdb
 D:\GITHUB\UCV\UCV_GDEI-II_202201-A1\Semana13\EUREKABANK\EurekaApp\EurekaApp\obj\Debug\netcoreapp3.1\EurekaApp.genruntimeconfig.cache
+D:\GITHUB\UCV\UCV_GDEI-II_202201-A1\Semana13\EUREKABANK\EurekaApp\EurekaApp\obj\Debug\netcoreapp3.1\EurekaApp.FormConsultarMovimientos.resources

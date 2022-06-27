@@ -4,6 +4,9 @@
     <Compile Update="Aprendizaje.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="FormConsultarMovimientos.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="FormDeposito.cs">
       <SubType>Form</SubType>
     </Compile>
